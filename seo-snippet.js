@@ -10,173 +10,161 @@
   };
 
   // === DATA (from your previous meta-tags.js) ===
-  const META_DATA = {"meta_tags_list":[{"page_url":"https://www.gardensongdesign.com/","title_tag":"Landscaping Design Plans Patios Walkways Harford | Garden Song Design","meta_description":"Landscaping design plans, plantings, patios, walkways and renovations in Harford and Baltimore County MD by a Certified Professional Horticulturist."},{"page_url":"https://www.gardensongdesign.com/Landscaping","title_tag":"Landscaping Design Plans Plantings Patios Walkways | Garden Song","meta_description":"Custom landscaping design plans, plantings, patios, walkways and hardscaping in Harford and Baltimore County MD by a Professional Horticulturist."},{"page_url":"https://www.gardensongdesign.com/gallery","title_tag":"Landscaping Design Plans Plantings Gallery Harford | Garden Song","meta_description":"View plantings used in landscaping design plans and garden renovations by Garden Song Design, Professional Horticulturist serving Harford and Baltimore MD."},{"page_url":"https://www.gardensongdesign.com/contact","title_tag":"Garden Consultations Landscaping Design Harford MD | Garden Song","meta_description":"Contact Garden Song Design in Bel Air MD for garden consultations, landscaping design plans, patios, walkways and landscape renovations in Harford County."},{"page_url":"https://www.gardensongdesign.com/services","title_tag":"Landscape Renovations Self Install Plans Harford MD | Garden Song","meta_description":"Landscape renovations, self install landscape plans, garden consultations and patios in Harford and Baltimore County MD by a Certified Professional Horticulturist."},{"page_url":"https://www.gardensongdesign.com/events","title_tag":"Workshops Presentations Garden Consultations Harford | Garden Song","meta_description":"Seasonal garden workshops, presentations and floral design events by a Professional Horticulturist serving Harford and Baltimore County Maryland."}],"keywords":["landscaping design plans plantings patios walkways harford baltimore","garden consultations","landscape renovations baltimore harford maryland","professional horticulturist","self install landscape plans","workshops presentations"]};
+  const META_DATA = {"meta_tags_list":[{"page_url":"https://www.gardensongdesign.com/","title_tag":"Landscape design Maryland & Harford County | Garden Song","meta_description":"Custom landscape design, renovations, patios and walkways in Harford & Baltimore County, Maryland. Professional horticulturist creating beautiful outdoor spaces."},{"page_url":"https://www.gardensongdesign.com/Landscaping","title_tag":"Custom landscape design & renovations Baltimore | Garden Song","meta_description":"Landscape renovations, custom landscape design, patios and walkways in Harford & Baltimore County, Maryland. Quality materials, expert contractors, beautiful results."},{"page_url":"https://www.gardensongdesign.com/gallery","title_tag":"Landscape planting design & gardens Maryland | Garden Song","meta_description":"Explore plant ideas and landscape planting design inspiration for Maryland gardens. Perennials, grasses and shrubs selected by a Certified Professional Horticulturist."},{"page_url":"https://www.gardensongdesign.com/contact","title_tag":"Landscaping design Harford County consultation | Garden Song","meta_description":"Contact Garden Song Design in Bel Air, Harford County MD for custom landscape design, planting, patios and walkways. Schedule your landscape consultation today."},{"page_url":"https://www.gardensongdesign.com/services","title_tag":"Landscape design Maryland & planting services | Garden Song","meta_description":"Professional landscape design, landscape renovations, hardscaping and garden planting services in Harford & Baltimore County, Maryland. Plans for DIY or full install."},{"page_url":"https://www.gardensongdesign.com/events","title_tag":"Garden planting workshops Maryland & design | Garden Song","meta_description":"Join Garden Song Design workshops in Maryland: planters, wreaths, centerpieces and garden planting events. Learn planting design and create seasonal garden accents."}],"keywords":["landscaping design harford county","landscaping design baltimore","landscape renovations baltimore","landscape design maryland","patio design harford county","walkway installation harford county","garden planting services maryland","landscape planting design","custom landscape design"]};
 
   // === DATA (from your previous LD.js) ===
   const LD_DATA = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://www.gardensongdesign.com/#localbusiness",
-  "name": "Garden Song Design",
   "url": "https://www.gardensongdesign.com/",
-  "description": "Garden Song Design provides professional landscape design, installation, hardscaping, garden consultations, workshops and winter floral design services in Harford County, Baltimore County, Cecil County Maryland and surrounding areas. Led by landscape designer and Certified Professional Horticulturist Paula Simons, the company creates beautiful, affordable outdoor spaces for everyday living.",
+  "name": "Garden Song Design",
+  "description": "Garden Song Design provides landscape design, landscaping, hardscaping, garden consultations, and seasonal floral design services for residential and commercial clients in Harford County, Baltimore County, Cecil County, Maryland and surrounding areas.",
   "image": [
-    "https://static.wixstatic.com/media/a957db_d97b625dc29848e6a73b5c780f7c17c7~mv2.jpg/v1/fill/w_333,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/paulafinalprofile.jpg"
+    "https://static.wixstatic.com/media/a957db_d97b625dc29848e6a73b5c780f7c17c7~mv2.jpg/v1/fill/w_333,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/paulafinalprofile.jpg",
+    "https://static.wixstatic.com/media/a957db_0a6d422c482a4776b762b310d7d63366~mv2.jpg/v1/fill/w_262,h_198,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/scjochorbackpatiowalkwaywall.jpg",
+    "https://static.wixstatic.com/media/a957db_09471e9526924ac5ad2e83f1ac81eb0c~mv2.jpg/v1/fill/w_258,h_194,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/schorchorlowerpatiowithplanting.jpg"
   ],
   "telephone": "+1-410-836-2700",
   "email": "gardensongdesign@gmail.com",
-  "areaServed": [
-    {
-      "@type": "City",
-      "name": "Bel Air",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Bel Air",
-        "addressRegion": "MD",
-        "addressCountry": "US"
-      }
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Harford County"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Baltimore County"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Cecil County"
-    }
-  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Bel Air",
     "addressRegion": "MD",
     "addressCountry": "US"
   },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Harford County, MD"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Baltimore County, MD"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Cecil County, MD"
+    }
+  ],
   "founder": {
     "@type": "Person",
     "name": "Paula Alexander Simons",
-    "jobTitle": "Landscape Designer, Certified Professional Horticulturist, Specialist in Herbaceous Perennials, Garden Consultant, Floral Designer, Workshop Instructor, Public Speaker",
-    "telephone": "+1-410-836-2700",
-    "image": "https://static.wixstatic.com/media/a957db_d97b625dc29848e6a73b5c780f7c17c7~mv2.jpg/v1/fill/w_333,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/paulafinalprofile.jpg"
+    "jobTitle": "Landscape Designer, Certified Professional Horticulturist, Specialist in Herbaceous Perennials, Garden Consultant, Floral Designer, Workshop Instructor, Public Speaker"
+  },
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bel Air",
+      "addressRegion": "MD",
+      "addressCountry": "US"
+    }
   },
   "sameAs": [],
-  "serviceArea": {
-    "@type": "AdministrativeArea",
-    "name": "Harford County MD and surrounding areas"
-  },
-  "slogan": "Creating beautiful, affordable outdoor spaces for everyday living",
   "knowsAbout": [
-    "landscape design",
-    "landscape installation",
-    "hardscaping",
-    "walkways",
-    "patios",
-    "retaining walls",
-    "perennial gardens",
-    "foundation plantings",
-    "pool plantings",
-    "erosion issues",
-    "real estate sales preparation landscaping",
+    "Landscape design",
+    "Landscape installation",
+    "Landscape renovations",
+    "Perennial gardens",
+    "Foundation plantings",
+    "Walkways",
+    "Patios",
+    "Retaining walls",
+    "Hardscaping",
+    "Pool plantings",
+    "Erosion issues",
+    "Problem planting areas",
     "DIY landscape plans",
-    "garden consultations",
-    "garden workshops",
-    "winter floral design",
-    "seasonal planters",
-    "wreath workshops"
+    "Garden consultations",
+    "Vegetable and herb gardens",
+    "Winter floral design",
+    "Seasonal floral arrangements",
+    "Floral design workshops",
+    "Garden workshops"
   ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Garden Song Design Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Complete Landscape Design, Install and Estimating Services",
-          "description": "Custom landscape plans, estimates and full installation based on homeowner needs, preferences and site conditions, using high quality plants, hardscaping materials and vetted contractors."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Landscape Renovations",
-          "description": "Renovation and updating of existing landscapes, improving curb appeal, plant health and overall garden design."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Real Estate Sales Preparation Landscaping",
-          "description": "Landscape improvements and clean-up to prepare properties for real estate sales and showings."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Pool Plantings",
-          "description": "Landscape and planting design around pools to create attractive, functional outdoor living spaces."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Walkways, Patios and Retaining Walls",
-          "description": "Design and coordination of hardscaping projects including stone, paver, concrete, block and gravel walkways, patios and retaining walls with experienced contractors."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Solutions for Problem Planting Areas and Erosion Issues",
-          "description": "Diagnosing and solving issues in difficult planting areas, including soil, drainage and erosion problems."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "\"Self-install\" Landscape Plans for DIY Homeowners",
-          "description": "Professional landscape and planting plans created for homeowners who want to install their own landscapes, including plant lists, placement and guidance."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Garden Consultations and Presentations",
-          "description": "On-site garden consultations for homeowners and gardeners, plus educational presentations on gardening topics.",
-          "provider": {
-            "@type": "Person",
-            "name": "Paula Alexander Simons"
-          }
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Workshops",
-          "description": "Fun and informative gardening and floral design workshops, including wreaths, planters, kitchen gardens and seasonal projects."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Winter Floral Design",
-          "description": "Custom winter and holiday floral designs including centerpieces, wreaths, swags, mantlepieces, sleighs, cemetery wreaths and blankets, and commercial decorating."
-        }
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Complete Landscape Design, Install, and Estimating Services",
+        "description": "Custom professional landscape design, installation, and detailed estimating services tailored to homeowner needs and site conditions."
       }
-    ]
-  }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Landscape Renovations",
+        "description": "Renovation and improvement of existing landscapes to enhance curb appeal, function, and plant health."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Real Estate Sales Preparation",
+        "description": "Landscape updates and enhancements to prepare properties for real estate listings and showings."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Pool Plantings",
+        "description": "Design and installation of plantings around pools to create attractive, functional outdoor living spaces."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Walkways, Patios, and Retaining Walls",
+        "description": "Hardscaping services including stone, paver, and block walkways, patios, and retaining walls installed by experienced contractors."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Problem Planting Areas and Erosion Issues",
+        "description": "Design solutions and plant selections to address challenging planting areas and erosion control."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Self-install Landscape Plans for DIY Homeowners",
+        "description": "Professional DIY planting and landscape plans, including CAD images and plant lists, for homeowners who wish to install their own landscapes."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Garden Consultations and Presentations",
+        "description": "On-site garden consultations, troubleshooting, maintenance reviews, and educational presentations for homeowners and gardeners."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Workshops and Garden Education",
+        "description": "Seasonal workshops and events on topics such as kitchen gardening, planter design, wreath-making, and gardening best practices."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Winter Floral Design",
+        "description": "Custom winter and holiday floral designs including centerpieces, wreaths, swags, mantlepieces, sleighs, cemetery wreaths and blankets, and commercial decorating."
+      }
+    }
+  ]
 };
 
   /* ===== Helpers ===== */
